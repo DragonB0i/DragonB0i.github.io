@@ -1515,3 +1515,45 @@ footer {
     animation: lanyardSwayMobile 8s ease-in-out infinite;
   }
 }
+
+/* Internship Experience — Certificate & LOR links */
+.experience-documents {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.document-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 12px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 4px;
+  color: var(--primary);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: var(--transition-fast);
+}
+
+.document-link:hover {
+  border-color: var(--primary);
+  background-color: rgba(255, 255, 255, 0.06);
+  transform: translateY(-2px);
+}
+
+.document-icon {
+  font-size: 1rem;
+}
+
+.document-link:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+}
